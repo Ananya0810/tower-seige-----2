@@ -19,11 +19,11 @@ class Box{
       if(this.body.speed<2.5){
      
       push()
-      fill(this.color)
+    
       translate (this.body.position.x,this.body.position.y)
       rotate ( this.body.angle)
       rectMode(CENTER);
-      rect(0,0,30.40);
+      rect(0,0,this.width,this.height);
       pop ()
  
       
